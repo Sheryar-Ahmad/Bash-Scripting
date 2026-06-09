@@ -17,9 +17,9 @@ if [ $rem -eq 0 ]
 then
   if [ $d1 -eq 0 ] || [ $d2 -eq 0 ] || [ $d3 -eq 0 ]
   then
-     hidden=9
-    else 
      hidden=0
+    else 
+     hidden=9
     fi
 else
   hidden=$((9-rem))
